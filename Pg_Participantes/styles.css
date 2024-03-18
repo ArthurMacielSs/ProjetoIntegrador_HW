@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.creator {
+    text-align: center;
+    width: 30%;
+}
+
+.creator img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.creator h2 {
+    margin-top: 10px;
+}
+
+.creator p {
+    margin-top: 5px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links img {
+    width: 30px; /* Ajuste o tamanho dos ícones conforme necessário */
+    height: auto;
+}
