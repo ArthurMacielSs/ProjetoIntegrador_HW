@@ -1,0 +1,73 @@
+/* Reset de estilos para remover margens e paddings padrão */
+body, h1, h2, h3, p, ul, li, form, header, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #FF0000;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo img {
+    height: 50px; /* Ajuste conforme necessário */
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+img.full-width {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.doencas {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #FF0000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
