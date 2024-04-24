@@ -1,0 +1,57 @@
+.principal {
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding na largura total */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribui os itens uniformemente */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+/* Estilos para cada seção */
+section {
+    flex: 1 1 300px; /* Cresce, encolhe, largura mínima */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+/* Estilos para cabeçalhos */
+h1, h2 {
+    margin-top: 0;
+}
+
+/* Estilos para listas */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Estilos para imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Estilos para legendas de imagens */
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* Regras de mídia para telas menores */
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column; /* Empilha os itens verticalmente */
+    }
+    section {
+        flex: 1 1 auto; /* Permitir que as seções ocupem o espaço disponível */
+    }
+}

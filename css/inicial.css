@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgreen; 
+    color: #333;
+ 
+}
+
+
+
+
+
+
+/* Estilos para a tag main */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    
+    
+}
+
+/* Estilos para as imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilos para os títulos */
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+h1, h2 {
+    color: red;
+}
+
+/* Estilos para os parágrafos */
+p {
+    margin-bottom: 15px;
+}
+
+/* Estilos para o link */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o rodapé da imagem */
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Estilos específicos para as divs com a classe "doencas" */
+.doencas {
+    background-color: #eee;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.doencas h3 {
+    margin-bottom: 10px;
+}
+
+.doencas p {
+    margin-bottom: 0;
+}
+
+/* Estilos para a seção de objetivo do site */
+section {
+    margin-top: 20px;
+    background-color: greenyellow;
+    padding: 20px;
+    text-align: center;
+}
+
+section img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+
+
+
