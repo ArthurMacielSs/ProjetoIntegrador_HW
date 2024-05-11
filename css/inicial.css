@@ -90,7 +90,32 @@ section img {
     margin-bottom: 10px;
 }
 
+.card {
+    width: 300px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
+}
 
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-info {
+    padding: 16px;
+}
+
+.card-info h2 {
+    margin-top: 0;
+}
+
+.card-info p {
+    margin-bottom: 0;
+    color: #333;
+}
 
 
 
